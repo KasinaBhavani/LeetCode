@@ -13,4 +13,3 @@ class Solution {
         return minDist == n ? -1 : minDist;
     }
 }
-
