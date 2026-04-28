@@ -1,4 +1,4 @@
-class Solution {
+ class Solution {
     public int maxSubArray(int[] nums) {
         int max=nums[0];
         int cs=nums[0];
