@@ -5,10 +5,6 @@ class Solution {
     public List<String> letterCombinations(String digits) {
         path = new StringBuilder();
         allPaths = new ArrayList<>();
-        if (digits == null || digits.length() == 0) {
-            return allPaths;
-        }
-        
         helper(digits, 0);
         return allPaths;
     }
